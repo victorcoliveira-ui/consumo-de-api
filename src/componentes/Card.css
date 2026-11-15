@@ -1,0 +1,41 @@
+.card {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+  background: var(--surface);
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  max-height: 18rem;
+  object-fit: contain;
+  background: #eeeeee;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin-bottom: 0.7rem;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.card-tags span {
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  font-size: 0.85rem;
+}
+
+.card-metadata p {
+  margin-bottom: 0.3rem;
+}
