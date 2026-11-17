@@ -1,0 +1,60 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202124;
+  background: #f5f6f8;
+
+  --text: #202124;
+  --muted: #606770;
+  --surface: #ffffff;
+  --border: #dfe3e8;
+  --primary: #2457c5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 5vw, 2.7rem);
+}
+
+h2 {
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+}
+
+p {
+  color: var(--muted);
+}
+
+@media (min-width: 80rem) {
+  body {
+    font-size: 1.05rem;
+  }
+}
